@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="100dp"
+    android:layout_height="40dp"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginLeft="5dp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="click me"/>
+</LinearLayout>
